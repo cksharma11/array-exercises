@@ -9,5 +9,5 @@ const assertUnique = function(source,expected){
 assertUnique([],[]);
 
 //          an array of single element is an array of just that element
-//assert.equal(findUniqueElements([1]),[1]);
+assertUnique([1],[1]);
 
