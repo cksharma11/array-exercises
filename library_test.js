@@ -1,9 +1,9 @@
 let assert = require('assert');
-let findUniqueElements = require('./library.js').findUniqueElements;
+let  { findUnique } = require('./library.js');
 
 //Unique Elements of
 const assertUnique = function(source,expected){
-  assert.deepEqual(findUniqueElements(source),expected);
+  assert.deepEqual(findUnique(source),expected);
 }
 //          empty array should be an empty array
 assertUnique([],[]);

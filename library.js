@@ -2,14 +2,14 @@
  * 20. Unique - Given an array, remove duplicate elements and return an array of only unique elements.
  */
 
-exports.findUniqueElements = function(source){
-  const result = [];
-  for(let item of source){
-    const shouldAdd = !result.includes(item);
+exports.findUnique = function(elements){
+  const uniqueElements = [];
+  for(let element of elements){
+    const shouldAdd = !uniqueElements.includes(element);
     if(shouldAdd){
-      result.push(item);
+      uniqueElements.push(element);
     }
   }
-  return result;
+  return uniqueElements;
 };
 
