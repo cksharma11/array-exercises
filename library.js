@@ -3,6 +3,7 @@
  */
 
 let findUniqueElements = function(source){
+  if(source.length>1) source.pop();
   return source;
 };
 

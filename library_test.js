@@ -11,3 +11,5 @@ assertUnique([],[]);
 //          an array of single element is an array of just that element
 assertUnique([1],[1]);
 
+//          an array with a duplicate should be an array with just one of those elements
+assertUnique([1,1],[1]);
