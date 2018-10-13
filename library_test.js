@@ -13,3 +13,7 @@ assertUnique([1],[1]);
 
 //          an array with a duplicate should be an array with just one of those elements
 assertUnique([1,1],[1]);
+
+//          an array of 2 unique items should give both
+assertUnique([1,2],[1,2]);
+
