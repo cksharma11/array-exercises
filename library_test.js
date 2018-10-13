@@ -17,3 +17,9 @@ assertUnique([1,1],[1]);
 //          an array of 2 unique items should give both
 assertUnique([1,2],[1,2]);
 
+//          an array of 3 identical items should give one of them
+assertUnique([1,1,1],[1]);
+
+//          an array of 2 identical items out of 3 should give two of them
+assertUnique([1,1,2],[1,2]);
+
