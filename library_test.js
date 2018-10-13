@@ -3,7 +3,7 @@ let findUniqueElements = require('./library.js').findUniqueElements;
 
 //Unique Elements of
 const assertUnique = function(source,expected){
-  assert.equal(findUniqueElements(source),expected);
+  assert.deepEqual(findUniqueElements(source),expected);
 }
 //          empty array should be an empty array
 assertUnique([],[]);

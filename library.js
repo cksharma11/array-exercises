@@ -3,7 +3,7 @@
  */
 
 let findUniqueElements = function(){
-  return "";
+  return [];
 };
 
 exports.findUniqueElements = findUniqueElements;
